@@ -1,7 +1,9 @@
+package silver;
+
 import java.io.*;
 import java.util.*;
  
-public class Main {
+public class 올바른_배열_1337 {
    public static void main(String[] args) throws IOException {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       int N = Integer.parseInt(br.readLine());
