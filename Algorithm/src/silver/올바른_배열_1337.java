@@ -32,5 +32,6 @@ public class 올바른_배열_1337 {
       }
       
       System.out.println(4 - count);
+      br.close();
    }
 }

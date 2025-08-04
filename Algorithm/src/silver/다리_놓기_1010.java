@@ -28,6 +28,7 @@ public class 다리_놓기_1010 {
 		for (int i = 0; i < N ;i++) {
 			System.out.println(ans[i]);
 		}
+		br.close();
 		
 	}
 
