@@ -29,7 +29,6 @@ public class p2468_안전영역 {
 		
 		int max = 0;
 		for(int i = 0; i <= 100; i++) { //비 확인, 잠긴 높이 따라 방문가능여부 다시 확인
-			visited = new int[N][N];
 			int nMax = rain(i);
 			if(nMax > max) max = nMax;
 		}
@@ -39,6 +38,7 @@ public class p2468_안전영역 {
 	}
 
 	static int rain(int i) {
+		visited = new int[N][N];
 		int count = 0; //영역의 수
 		for(int y = 0; y < N; y++) {
 			for(int x = 0; x < N; x++) {
