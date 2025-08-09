@@ -29,13 +29,13 @@ public class 바이러스_2606 {
 			link[c1].add(c2);
 			link[c2].add(c1);
 		}
-		System.out.println(dfs(1));
+		System.out.println(dfs(1) - 1);  //자기 자신 제외
 	}
 	
 	static int dfs(int in){
 		if (in <= 0) return -1;
 		visited[in] = true;
-		int count = 0; //자기 자신 count 제외
+		int count = 1;
 		for(int next : link[in]) {
 			if(!visited[next]) {  //방문 x인 경우
 				count += dfs(next);
