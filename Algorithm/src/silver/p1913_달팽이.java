@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 달팽이_1913 {
+public class p1913_달팽이 {
 
 	public static void main(String[] args) throws IOException {
 

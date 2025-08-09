@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class 바이러스_2606 {
+public class p2606_바이러스 {
 
 	static boolean[] visited;
 	static ArrayList<Integer>[] link;

@@ -3,7 +3,7 @@ package silver;
 import java.io.*;
 import java.util.*;
  
-public class 올바른_배열_1337 {
+public class p1337_올바른_배열 {
    public static void main(String[] args) throws IOException {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       int N = Integer.parseInt(br.readLine());

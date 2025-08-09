@@ -2,7 +2,7 @@ package silver;
 
 import java.util.Scanner;
 
-public class 기적의_매매법_20546 {
+public class p20546_기적의_매매법 {
 
 	public static void main(String[] args) {
 		

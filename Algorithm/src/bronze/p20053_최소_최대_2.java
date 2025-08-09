@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 //array
-public class 최소_최대_2_20053 {
+public class p20053_최소_최대_2 {
 	
 	public static void main(String[] args) {
 		

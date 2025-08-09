@@ -2,7 +2,7 @@ package silver;
 
 import java.util.Scanner;
 
-public class 재귀함수가_뭔가요_17378 {
+public class p17378_재귀함수가_뭔가요 {
 	
 	static int N;
 	

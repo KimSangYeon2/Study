@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 체스판_다시_칠하기_1018 {
+public class p1018_체스판_다시_칠하기 {
 	
 	public static void main(String[] args) throws IOException {
 
