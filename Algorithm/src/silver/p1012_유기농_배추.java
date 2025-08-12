@@ -37,7 +37,7 @@ public class p1012_유기농_배추 {
 			for(int y = 0; y < N; y++) {
 				for(int x = 0; x < M; x++) {
 					if(visitable[y][x]) { //탐색가능구역마다 전부 탐색하고 count + 1
-						bfs(y, x);
+						dfs(y, x);
 						count++;
 					}
 				}
@@ -48,13 +48,13 @@ public class p1012_유기농_배추 {
 		br.close();
 	}
 	
-	static void bfs(int y, int x) { // bfs 탐색
+	static void dfs(int y, int x) { // bfs 탐색
 		visitable[y][x] = false; //이미 방문 했으니깐
 		for(int i = 0; i < 4; i++) {
 			int ny = y + dy[i];
 			int nx = x + dx[i];
 			if(!isEnd(ny, nx) && visitable[ny][nx]) {
-				bfs(ny, nx);
+				dfs(ny, nx);
 			}
 		}
 	}
