@@ -23,7 +23,7 @@ public class p17103_골드바흐파티션 {
 			int N = Integer.parseInt(br.readLine());
 			int count = 0;
 			
-			for(int i = 3; i <= N / 2; i++){//짝수이므로 2는 포함 x, 중복 방지로 N/2까지만
+			for(int i = 2; i <= N / 2; i++){//짝수이므로 2는 포함 x, 중복 방지로 N/2까지만
 				if(isPrime[i] && isPrime[N - i]) count++;
 			}
 			
@@ -32,11 +32,4 @@ public class p17103_골드바흐파티션 {
 		System.out.println(sb);
 		br.close();
 	}
-
-	// 시간초과.. 판별 한번으로 모든 tc 검사하기
-//	static boolean isDecimal(int in) {
-//		for(int i = 2; i < in; i++)//1과 자기 자신으로만
-//			if(in % i == 0) return false;
-//		return true;
-//	}
 }
