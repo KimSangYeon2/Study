@@ -30,7 +30,7 @@ public class p12865_평범한배낭 {
 		dp = new int[K + 1]; //무게 별 최대 가치
 		for (int n = 1; n <= N; n++) { //물건마다 갱신
 		    for (int w = K; w >= W[n]; w--) { //무게별로 dp 갱신
-		        dp[w] = Math.max(dp[w], dp[w - W[n]] + V[n]); //선ㅌ
+		        dp[w] = Math.max(dp[w], dp[w - W[n]] + V[n]); //선택 or 선택x
 		    }
 		}
 		  //무게 낮은 곳 부터 갱신하면 중복 발생..
