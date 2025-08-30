@@ -48,7 +48,7 @@ public class p1949_등산로_조정 {
 	
 	static void newRoad() {
 		maxL = 0;
-		//한 칸 선택해서 k만큼 파고 bfs 실시
+		//한 칸 선택해서 k만큼 파고 dfs 실시
 		for(int y = 0; y < N; y++) {
 			for(int x = 0; x < N; x++) {
 				for(int k = 0; k <= K; k++) {
